@@ -1,0 +1,35 @@
+{
+  "format": "pack/1",
+  "engine": "json",
+  "kind": "Text To Image",
+  "id": "a1111-cyberrealistic-pony",
+  "label": "CyberRealistic Pony (A1111)",
+  "note": "Photoreal Pony. Start the prompt with «score_9, score_8_up, score_7_up,» then the subject. 30 steps, CFG 5, DPM++ 2M Karras, clip skip 2 (the creator's settings). A1111 weights like (word:1.2) work.",
+  "sizes": [
+    [896, 1152, "Portrait 3:4"],
+    [832, 1216, "Portrait 2:3"],
+    [1152, 896, "Landscape 4:3"],
+    [1216, 832, "Landscape 3:2"],
+    [1024, 1024, "Square"]
+  ],
+  "size_step": 64,
+  "input": {
+    "prompt": "",
+    "negative_prompt": "score_6, score_5, score_4, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, signature, watermarks, ugly, imperfect eyes, skewed eyes, unnatural face, unnatural body, error, extra limb, missing limbs",
+    "seed": 0,
+    "width": 896,
+    "height": 1152,
+    "steps": 30,
+    "cfg_scale": 5,
+    "sampler_name": "DPM++ 2M",
+    "scheduler": "Karras",
+    "override_settings": {
+      "CLIP_stop_at_last_layers": 2
+    }
+  },
+  "prompt": [["prompt"]],
+  "negative": [["negative_prompt"]],
+  "seed": [["seed"]],
+  "width": [["width"]],
+  "height": [["height"]]
+}
