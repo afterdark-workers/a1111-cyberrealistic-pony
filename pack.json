@@ -13,6 +13,7 @@
     [1024, 1024, "Square"]
   ],
   "size_step": 64,
+  "remote_loras": true,
   "input": {
     "prompt": "",
     "negative_prompt": "score_6, score_5, score_4, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, signature, watermarks, ugly, imperfect eyes, skewed eyes, unnatural face, unnatural body, error, extra limb, missing limbs",
