@@ -1,5 +1,7 @@
 # CyberRealistic Pony — RunPod Serverless worker (AUTOMATIC1111)
 
+> 🔞 **Adult (18+) · NSFW** — part of afterdark-workers, workers for uncensored adult image and video models.
+
 A ready-to-build [RunPod Serverless](https://runpod.io?ref=qpguwapm) worker for **[CyberRealistic Pony](https://civitai.com/models/443821?modelVersionId=2884631)** by Cyberdelia, a photoreal Pony (SDXL) checkpoint, running on [AUTOMATIC1111 Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) v1.10.1 — the same settings as AUTOMATIC1111's own API: prompt weights like `(word:1.2)`, A1111 sampler names, clip skip. There is no web page: you use it from [Cobalt Pear](https://cobaltpear.github.io/) or any API call.
 
 Models are baked into the image, so a cold start does not re-download anything.
